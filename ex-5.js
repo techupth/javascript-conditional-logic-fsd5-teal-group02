@@ -1,5 +1,18 @@
 function calculateStudentGrade(score) {
   // Start coding here
+  if (90 <= score && score <= 100) {
+    return "A";
+  } else if (80 <= score && score < 90) {
+    return "B";
+  } else if (70 <= score && score < 80) {
+    return "C";
+  } else if (60 <= score && score < 70) {
+    return "D";
+  } else if (score < 59) {
+    return "F";
+  } else {
+    return "F";
+  }
 }
 
 // Example case
